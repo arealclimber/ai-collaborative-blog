@@ -1,4 +1,4 @@
-baseURL = 'https://ai-co-blog-arealclimber.vercel.app/'
+baseURL = 'https://ai-co-blog.vercel.app/'
 languageCode = 'zh-tw'
 title = 'AI co-blog'
 theme = "PaperMod"

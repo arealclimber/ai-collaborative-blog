@@ -2,31 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI co-blog</title>
-    <link>http://localhost:1313/</link>
+    <link>https://ai-co-blog.vercel.app/</link>
     <description>Recent content on AI co-blog</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sun, 23 Jun 2024 18:42:18 +0800</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 22 Jun 2024 19:37:20 +0800</lastBuildDate>
+    <atom:link href="https://ai-co-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>How to Add an Article251</title>
-      <link>http://localhost:1313/posts/how-to-add-an-article251/</link>
-      <pubDate>Sun, 23 Jun 2024 18:42:18 +0800</pubDate>
-      <guid>http://localhost:1313/posts/how-to-add-an-article251/</guid>
-      <description>123</description>
-    </item>
-    <item>
-      <title>How to Add an Article51</title>
-      <link>http://localhost:1313/posts/how-to-add-an-article51/</link>
-      <pubDate>Sun, 23 Jun 2024 18:38:39 +0800</pubDate>
-      <guid>http://localhost:1313/posts/how-to-add-an-article51/</guid>
-      <description>Test</description>
+      <title>Second Post</title>
+      <link>https://ai-co-blog.vercel.app/posts/second-post/</link>
+      <pubDate>Sat, 22 Jun 2024 19:37:20 +0800</pubDate>
+      <guid>https://ai-co-blog.vercel.app/posts/second-post/</guid>
+      <description>This is the content of the post.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>http://localhost:1313/posts/my-first-post/</link>
+      <link>https://ai-co-blog.vercel.app/posts/my-first-post/</link>
       <pubDate>Fri, 21 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/my-first-post/</guid>
+      <guid>https://ai-co-blog.vercel.app/posts/my-first-post/</guid>
       <description>This is the content of the post.</description>
     </item>
   </channel>
