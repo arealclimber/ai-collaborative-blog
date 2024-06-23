@@ -1,6 +1,6 @@
 baseURL = 'https://ai-co-blog.vercel.app/'
 languageCode = 'zh-tw'
-title = 'AI co-blog'
+title = 'AI 共筆部落格'
 theme = "PaperMod"
 paginate = 5
 
