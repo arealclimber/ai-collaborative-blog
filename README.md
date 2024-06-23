@@ -1,29 +1,65 @@
-# 安裝 hugo 跟 clone repo
+# Initialization
+
+## 安裝 hugo
 
 - 根據不同作業系統安裝 hugo，參考[官方文件](https://gohugo.io/installation/)
 - 確保 hugo 安裝成功，可輸入指令查看版本
   - `hugo version`
+
+## clone repo
+
 - `git clone https://github.com/arealclimber/ai-collaborative-blog.git`
 - `cd ai-collaborative-blog`
 
 # 新增文章
 
-- `hugo new <DIR/FILE_NAME.md>`
-  - 範例：`hugo new posts/test-article.md`
-- 將預設值更改為以下內容：
-  ```tsx
-  ---
-  title: "這篇文章的標題"
-  date: 2024-06-22T19:37:20+08:00
-  draft: false
-  author: "作者名字"
-  ---
+- 流程為：寫文章 →build 整個 repo 的靜態文件 → 將更新推到遠端 → 查看 GitHub 自動部署是否成功、網站是否將新文章更新上來
 
-  文章內容
+## 寫文章
+
+- 創建文章：`hugo new <DIR/FILE_NAME.md>`
+  - 範例：`hugo new posts/test-article.md`
+- 執行完指令，`test-article.md` 會得到以下內容
+
+  ```tsx
+  +++
+  title: 'Test Article'
+  date: 2024-06-23T20:49:50+08:00
+  draft: true
+  author: ''
+  +++
+
   ```
-- 在本地跑 hugo server
+
+- 將預設值的 `+++` 更改為 `---`、在作者欄加上自己的名字、在文章完成後將 drafe 改為 false：
+
+```tsx
+---
+title: 'Test Article'
+date: 2024-06-23T20:49:50+08:00
+draft: true
+author: "作者名字"
+---
+
+開始寫文章....
+```
+
+## build 靜態文件
+
+- build 靜態文件
+  - `hugo`
+- 在本地跑 hugo server 查看動態變化
   - `hugo server`
-- 刪掉 `public/` 資料夾，使用 `hugo` 重新 build
+
+## 將更新推到遠端
+
+- `git add .`
+- `git commit -m "YOUR_COMMIT_MESSAGE”`
+
+### 查看 GitHub 自動部署是否成功、網站是否將新文章更新上來
+
+- [查看自動部署紀錄](https://github.com/arealclimber/ai-collaborative-blog/deployments/Production)
+- [查看網站](https://ai-co-blog.vercel.app/)
 
 ## 注意事項
 
