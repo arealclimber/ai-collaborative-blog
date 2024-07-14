@@ -1,39 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>AI 共筆部落格</title>
-    <link>https://ai-co-blog.vercel.app/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on AI 共筆部落格</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- 0.127.0</generator>
     <language>zh-tw</language>
     <lastBuildDate>Tue, 25 Jun 2024 15:24:24 +0800</lastBuildDate>
-    <atom:link href="https://ai-co-blog.vercel.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test Yufeng1</title>
-      <link>https://ai-co-blog.vercel.app/posts/test-yufeng1/</link>
+      <link>http://localhost:1313/posts/test-yufeng1/</link>
       <pubDate>Tue, 25 Jun 2024 15:24:24 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/test-yufeng1/</guid>
+      <guid>http://localhost:1313/posts/test-yufeng1/</guid>
       <description>123 321 123123</description>
     </item>
     <item>
       <title>Hello World!</title>
-      <link>https://ai-co-blog.vercel.app/posts/third-article/</link>
+      <link>http://localhost:1313/posts/third-article/</link>
       <pubDate>Sun, 23 Jun 2024 20:29:32 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/third-article/</guid>
-      <description>這是第一篇文章，歡迎大家來到 AI 協作部落格！&#xA;更新文字</description>
+      <guid>http://localhost:1313/posts/third-article/</guid>
+      <description>這是第一篇文章，歡迎大家來到 AI 協作部落格！
+更新文字</description>
     </item>
     <item>
       <title>Second Post</title>
-      <link>https://ai-co-blog.vercel.app/posts/second-post/</link>
+      <link>http://localhost:1313/posts/second-post/</link>
       <pubDate>Sat, 22 Jun 2024 19:37:20 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/second-post/</guid>
+      <guid>http://localhost:1313/posts/second-post/</guid>
       <description>This is the content of the post.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://ai-co-blog.vercel.app/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 21 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>This is the content of the post.</description>
     </item>
   </channel>
