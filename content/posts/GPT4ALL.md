@@ -9,7 +9,7 @@ author: 'Daniel'
 
 ## 前言
 
-GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。
+GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。 
 
 - 網站: https://www.nomic.ai/gpt4all
 - 文件: https://docs.gpt4all.io/index.html
