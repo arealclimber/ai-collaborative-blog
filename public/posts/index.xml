@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on AI 共筆部落格</title>
-    <link>https://ai-co-blog.vercel.app/posts/</link>
+    <link>http://localhost:1313/posts/</link>
     <description>Recent content in Posts on AI 共筆部落格</description>
     <generator>Hugo -- 0.127.0</generator>
     <language>zh-tw</language>
     <lastBuildDate>Wed, 24 Jul 2024 13:36:57 +0800</lastBuildDate>
-    <atom:link href="https://ai-co-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPT4ALL</title>
-      <link>https://ai-co-blog.vercel.app/posts/gpt4all/</link>
+      <link>http://localhost:1313/posts/gpt4all/</link>
       <pubDate>Wed, 24 Jul 2024 13:36:57 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/gpt4all/</guid>
+      <guid>http://localhost:1313/posts/gpt4all/</guid>
       <description>GPT4ALL 前言 GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。
 網站: https://www.nomic.ai/gpt4all 文件: https://docs.gpt4all.io/index.html Github: https://github.com/nomic-ai/gpt4all 其他資源: 不用網路！在電腦安裝類 ChatGPT 的 AI，還指定對話的文件（GPT4All） 當下版本 3.0.0
 收費方式 免費
@@ -23,9 +23,9 @@ GPT4All需要搭配什麼軟體？ 你只需要在 Windows、Mac 或 Linux 電�
     </item>
     <item>
       <title>Copilot</title>
-      <link>https://ai-co-blog.vercel.app/posts/copilot/</link>
+      <link>http://localhost:1313/posts/copilot/</link>
       <pubDate>Sat, 20 Jul 2024 18:35:35 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/copilot/</guid>
+      <guid>http://localhost:1313/posts/copilot/</guid>
       <description>Introduction Copilot 是 GitHub 推出的 AI 程式碼工具，基於 OpenAI 加上 GitHub 上大量的原始碼，使用的是 GPT-4 Turbo。
 官網聲稱可以達到四成以上的正確率，也就是說可以少寫四成以上的程式碼。
 Insatll 目前非免費，可參考此份連結進行安裝：https://code.visualstudio.com/docs/copilot/setup
@@ -36,31 +36,38 @@ Chat 類似於 Chat-GPT 會跟當前滑鼠所在的程式碼自動關聯 有三�
     </item>
     <item>
       <title>Test Yufeng1</title>
-      <link>https://ai-co-blog.vercel.app/posts/test-yufeng1/</link>
+      <link>http://localhost:1313/posts/test-yufeng1/</link>
       <pubDate>Tue, 25 Jun 2024 15:24:24 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/test-yufeng1/</guid>
+      <guid>http://localhost:1313/posts/test-yufeng1/</guid>
       <description>123 321 123123</description>
     </item>
     <item>
+      <title>Cursor</title>
+      <link>http://localhost:1313/posts/cursor/</link>
+      <pubDate>Mon, 24 Jun 2024 15:34:57 +0800</pubDate>
+      <guid>http://localhost:1313/posts/cursor/</guid>
+      <description>Cursor 是可以選擇不同 AI 模型的 code editor</description>
+    </item>
+    <item>
       <title>Hello World!</title>
-      <link>https://ai-co-blog.vercel.app/posts/third-article/</link>
+      <link>http://localhost:1313/posts/third-article/</link>
       <pubDate>Sun, 23 Jun 2024 20:29:32 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/third-article/</guid>
+      <guid>http://localhost:1313/posts/third-article/</guid>
       <description>這是第一篇文章，歡迎大家來到 AI 協作部落格！
 更新文字</description>
     </item>
     <item>
       <title>Second Post</title>
-      <link>https://ai-co-blog.vercel.app/posts/second-post/</link>
+      <link>http://localhost:1313/posts/second-post/</link>
       <pubDate>Sat, 22 Jun 2024 19:37:20 +0800</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/second-post/</guid>
+      <guid>http://localhost:1313/posts/second-post/</guid>
       <description>This is the content of the post.</description>
     </item>
     <item>
       <title>My First Post</title>
-      <link>https://ai-co-blog.vercel.app/posts/my-first-post/</link>
+      <link>http://localhost:1313/posts/my-first-post/</link>
       <pubDate>Fri, 21 Jun 2024 10:00:00 +0000</pubDate>
-      <guid>https://ai-co-blog.vercel.app/posts/my-first-post/</guid>
+      <guid>http://localhost:1313/posts/my-first-post/</guid>
       <description>This is the content of the post.</description>
     </item>
   </channel>
