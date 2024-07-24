@@ -4,10 +4,23 @@
     <title>Posts on AI 共筆部落格</title>
     <link>https://ai-co-blog.vercel.app/posts/</link>
     <description>Recent content in Posts on AI 共筆部落格</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.128.2</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Sat, 20 Jul 2024 18:35:35 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 10:22:29 +0800</lastBuildDate>
     <atom:link href="https://ai-co-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>GPT4ALL</title>
+      <link>https://ai-co-blog.vercel.app/posts/gpt4all/</link>
+      <pubDate>Wed, 24 Jul 2024 10:22:29 +0800</pubDate>
+      <guid>https://ai-co-blog.vercel.app/posts/gpt4all/</guid>
+      <description>GPT4ALL 前言 GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。
+網站: https://www.nomic.ai/gpt4all 文件: https://docs.gpt4all.io/index.html Github: https://github.com/nomic-ai/gpt4all 其他資源: 不用網路！在電腦安裝類 ChatGPT 的 AI，還指定對話的文件（GPT4All） 當下版本 3.0.0
+收費方式 免費
+如何安裝 到官網下載對應作業系統的安裝檔 安裝GPT4ALL 安裝後首次啟動GPT4ALL時，會被詢問是否要分享資料給GPT4ALL作改善，不想的話請都選NO 如何使用 如何使用Chats功能? 到Models分頁 點擊+ Add Model，查看清單或透過搜尋功能找到想要用的模型 點擊Download，下載模型到電腦中(預設路徑是C:/Users/user/AppData/Local/nomic.ai/GPT4All/，也可以到設定裡更改) 等待下載完成後，到Chats分頁選擇模型 開始聊天 (可選)到Settings分頁的Model中修改Prompt或微調模型的hyperparameter 如何使用LocalDocs功能? 到LocalDocs分頁 點擊+ Add Doc Collection 幫新的Collection取名並選擇資料夾路徑(之後會用該資料夾內含的.txt/.pdf/.md檔案做RAG) 點擊Create Collection，等待embedding處理完成 embedding完成後，到Chats分頁選擇模型 點擊右上角的LocalDocs，選擇要用哪個Collection 開始聊天 (可選)到Settings分頁的LocalDocs中修改設定，再回來點擊Rebuild重新embedding (可選)修改或更新資料夾中的檔案，再回來點擊Rebuild重新embedding Q&amp;amp;A GPT4All支援哪些語言模型？ GPT4All支援已上傳到 HuggingFace 並具備 llama.cpp 實現的模型。
+llama.cpp 是一個用於高效地運行和管理機器學習模型的開源庫，它提供了對各種語言模型的支持，使得這些模型可以在不同的平台上運行，比如 Windows、Mac 和 Linux。通過使用 llama.cpp，這些模型可以更有效地執行和使用計算資源。
+GPT4All支援哪些嵌入模型？ GPT4All支援 SBert 和 Nomic Embed Text v1 &amp;amp; v1.5。
+GPT4All需要搭配什麼軟體？ 你只需要在 Windows、Mac 或 Linux 電腦上安裝 GPT4all。</description>
+    </item>
     <item>
       <title>Copilot</title>
       <link>https://ai-co-blog.vercel.app/posts/copilot/</link>
@@ -15,7 +28,7 @@
       <guid>https://ai-co-blog.vercel.app/posts/copilot/</guid>
       <description>Introduction Copilot 是 GitHub 推出的 AI 程式碼工具，基於 OpenAI 加上 GitHub 上大量的原始碼，使用的是 GPT-4 Turbo。
 官網聲稱可以達到四成以上的正確率，也就是說可以少寫四成以上的程式碼。
-Insatll 目前非免費，可參考此份連結進行安裝：https://code.visualstudio.com/docs/copilot/setupＸ
+Insatll 目前非免費，可參考此份連結進行安裝：https://code.visualstudio.com/docs/copilot/setup
 Usage 上下文 (Conetext) 當前編輯的程式檔案 已經開啟的檔案分頁 變數命名 註解 CDD (Comment-Driven Development) 透過註解來開發 提供良好示範 Code Suggestions control + enter 會打開 copilot 的建議視窗，不止一種 Suggestion。
 Generate Commit Message 自動產生符合的 Commit Message。
 Chat 類似於 Chat-GPT 會跟當前滑鼠所在的程式碼自動關聯 有三種用指令開啟對話的方式：
