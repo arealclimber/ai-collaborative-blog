@@ -6,12 +6,12 @@
     <description>Recent content in Posts on AI 共筆部落格</description>
     <generator>Hugo -- 0.128.2</generator>
     <language>zh-tw</language>
-    <lastBuildDate>Wed, 24 Jul 2024 10:22:29 +0800</lastBuildDate>
+    <lastBuildDate>Wed, 24 Jul 2024 13:36:57 +0800</lastBuildDate>
     <atom:link href="https://ai-co-blog.vercel.app/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GPT4ALL</title>
       <link>https://ai-co-blog.vercel.app/posts/gpt4all/</link>
-      <pubDate>Wed, 24 Jul 2024 10:22:29 +0800</pubDate>
+      <pubDate>Wed, 24 Jul 2024 13:36:57 +0800</pubDate>
       <guid>https://ai-co-blog.vercel.app/posts/gpt4all/</guid>
       <description>GPT4ALL 前言 GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。
 網站: https://www.nomic.ai/gpt4all 文件: https://docs.gpt4all.io/index.html Github: https://github.com/nomic-ai/gpt4all 其他資源: 不用網路！在電腦安裝類 ChatGPT 的 AI，還指定對話的文件（GPT4All） 當下版本 3.0.0

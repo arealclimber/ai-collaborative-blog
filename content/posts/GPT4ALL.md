@@ -1,6 +1,6 @@
 ---
 title: 'GPT4ALL'
-date: 2024-07-24T10:22:29+08:00
+date: 2024-07-24T13:36:57+08:00
 draft: false
 author: 'Daniel'
 ---
@@ -9,7 +9,7 @@ author: 'Daniel'
 
 ## 前言
 
-GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。 
+GPT4All可以桌機和筆電上較方便地運行本地端的大型語言模型。使用者無需調用API或升級GPU，只需下載應用程序即可開始使用。
 
 - 網站: https://www.nomic.ai/gpt4all
 - 文件: https://docs.gpt4all.io/index.html
