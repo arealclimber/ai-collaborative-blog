@@ -1,3 +1,10 @@
+---
+title: "Contribution Guide"
+date: 2024-06-23T17:37:56+08:00
+draft: false
+author: "Shirley"
+---
+
 # 初始化
 
 ## 步驟 1：安裝 Hugo
