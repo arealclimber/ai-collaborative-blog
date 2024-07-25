@@ -1,0 +1,63 @@
+baseURL: "https://ai-co-blog.vercel.app/"
+languageCode: "zh-tw"
+title: "AI 共筆部落格"
+theme: "PaperMod"
+paginate: 10
+
+taxonomies:
+  category: categories
+  tag: tags
+
+permalinks:
+  tags: "/tags/:slug/"
+
+menu:
+  main:
+    - identifier: "archives"
+      name: "所有文章"
+      url: "/archives/"
+      weight: 10
+    - identifier: "search"
+      name: "搜尋"
+      url: "/search/"
+      weight: 20
+    - identifier: "tags"
+      name: "標籤"
+      url: "/tags/"
+      weight: 30
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+
+params:
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 1
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+  authors: ["Daniel", "Shirley", "Wally", "Winnie", "瑜楓"]
+  ShowCodeCopyButtons: true
+  ShowBreadCrumbs: true
+  ShowToc: true
+  TocOpen: true
+  enableSearch: true
+  ShowShareButtons: true
+  ShowPostNavLinks: true
+  ShowReadingTime: true
+  ShowAllPagesInArchive: true
+
+  homeInfoParams:
+    Title: "歡迎來到 AI 共筆部落格 👋"
+    Content: "每週分享 AI 相關知識和好用工具，歡迎加入我們，一起探索 AI 的無限可能！"
+
+  socialIcons:
+    - name: "discord"
+      url: "https://discord.gg/BCbAYf7pkA"
+    - name: "github"
+      url: "https://github.com/arealclimber/ai-collaborative-blog"

@@ -3,6 +3,7 @@ title: "Contribution Guide"
 date: 2024-06-23T17:37:56+08:00
 draft: false
 author: "Shirley"
+tags: ["guide"]
 ---
 
 # 初始化
