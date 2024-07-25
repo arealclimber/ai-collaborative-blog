@@ -21,10 +21,11 @@ menu:
       name: "搜尋"
       url: "/search/"
       weight: 20
-    - identifier: "tags"
-      name: "標籤"
-      url: "/tags/"
-      weight: 30
+    # - identifier: "tags"
+    #   name: "標籤"
+    #   url: "/tags/"
+    #   weight: 30
+
 outputs:
   home:
     - "HTML"

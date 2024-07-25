@@ -1,5 +1,5 @@
 ---
-title: "文章歸檔"
+title: "所有文章"
 layout: "archives"
 summary: "archives"
 ---
