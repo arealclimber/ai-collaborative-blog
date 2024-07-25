@@ -4,12 +4,12 @@ title: "AI 共筆部落格"
 theme: "PaperMod"
 paginate: 10
 
-taxonomies:
-  category: categories
-  tag: tags
+# taxonomies:
+#   category: categories
+#   tag: tags
 
-permalinks:
-  tags: "/tags/:slug/"
+# permalinks:
+#   tags: "/tags/:slug/"
 
 menu:
   main:
@@ -40,7 +40,7 @@ params:
     distance: 1000
     threshold: 1
     minMatchCharLength: 0
-    keys: ["title", "permalink", "summary", "content"]
+    keys: ["title", "summary", "content"] # "permalink",
 
   authors: ["Daniel", "Shirley", "Wally", "Winnie", "瑜楓"]
   ShowCodeCopyButtons: true
