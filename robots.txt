@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /private/
+Allow: /public/
+Sitemap: https://ai-co-blog.vercel.app/sitemap.xml
