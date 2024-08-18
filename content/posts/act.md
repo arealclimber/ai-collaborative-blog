@@ -19,10 +19,6 @@ author: 'Winnie'
 
 ## Installation
 
-:::tip[TIP]
-透過 package manager 來安裝 act：[各套件管理器的安裝方式](https://nektosact.com/installation/index.html#installation-via-software-package-manager)
-:::
-
 **Pre-build artifact**
 
 ```bash
@@ -36,6 +32,8 @@ Requires Go toolchain 1.18+
 ```bash
 go build -ldflags "-X main.version=$(git describe --tags --dirty --always | sed -e 's/^v//')" -o dist/local/act main.go
 ```
+
+也可以透過 package manager 來安裝 act：[各套件管理器的安裝方式](https://nektosact.com/installation/index.html#installation-via-software-package-manager)
 
 ## Usage
 
@@ -54,3 +52,14 @@ go build -ldflags "-X main.version=$(git describe --tags --dirty --always | sed 
 act <event>
 # act pull_request
 ```
+
+### Vars
+
+可以透過 CLI 輸入或是從檔案內載入 workflow 中使用的 `variables` 或是 `secrets`：
+
+```bash
+act --var VARIABLE=somevalue
+act --var-file .env
+```
+
+較為敏感的資訊不建議直接透過 CLI 輸入，建議透過 `act -s MY_SECRET` 來進行定義，以此方式輸入 `secret`，`act` 會提供安全輸入提示，不會保存在 shell 歷史記錄檔內。
