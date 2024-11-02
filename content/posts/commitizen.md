@@ -22,7 +22,7 @@ tags: [""]
 
 # 什麼是 [commitizen](https://commitizen.github.io/cz-cli/)
 
-Commitizen 是一個互動式的 commit message 輔助工具，透過選單引導使用者填寫符合規範的 commit message。
+[Commitizen](https://commitizen.github.io/cz-cli/) 是一個互動式的 commit message 輔助工具，透過選單引導使用者填寫符合規範的 commit message。
 
 commitizen 是基於 Node.js 撰寫的，需要在 Node.js 環境中運行。這使得 commitizen 能夠與 npm 和其他 JavaScript 工具無縫集成。
 
@@ -88,7 +88,7 @@ npm install -D commitizen cz-conventional-changelog
 
         ```
 
-### 將 commitizen 產生的 [changelog.md](http://changelog.md/) 作為 release 內容
+### 將 commitizen 產生的 changelog.md 作為 release 內容
 
 需要安裝 `standard-version`
 
@@ -109,12 +109,12 @@ npm install --save-dev standard-version
   ```
 - `npm run release`
 - `git push --follow-tags origin main && npm publish`
-  - 會更新 [CHANGELOG.md](http://changelog.md/)
+  - 會更新 CHANGELOG.md
   - 可以同步 release 到 npm 跟 GitHub 上；如果沒有登入 npm，一樣可以成功在 GitHub 遠端看到 release
 
 # 如何在全域下使用 commitizen
 
-- 根據不同作業系統，透過 **[++nvm++](https://github.com/nvm-sh/nvm)++ ++**下載跟管理 Node.js 跟 npm
+- 根據不同作業系統，透過 [nvm](https://github.com/nvm-sh/nvm) 下載跟管理 Node.js 跟 npm
 - 全域安裝
 
 ```json
