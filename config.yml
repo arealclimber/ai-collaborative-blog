@@ -58,6 +58,7 @@ params:
     Title: "歡迎來到 AI 知識部落格 👋"
     Content: "每週分享 AI 相關知識，歡迎加入我們，一起學習 AI"
 
+  social: true
   socialIcons:
     - name: "discord"
       url: "https://discord.gg/BCbAYf7pkA"
