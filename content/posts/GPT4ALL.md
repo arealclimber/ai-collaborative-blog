@@ -1,7 +1,7 @@
 ---
 title: 'GPT4ALL'
 date: 2024-07-24T13:36:57+08:00
-draft: false
+draft: true # 隱藏 AI 工具文章
 author: 'Daniel'
 ---
 

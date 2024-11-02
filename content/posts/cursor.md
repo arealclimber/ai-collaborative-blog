@@ -1,7 +1,7 @@
 ---
 title: 'Cursor'
 date: 2024-08-10T17:42:01+08:00
-draft: false
+draft: true # 隱藏 AI 工具文章
 author: 'Daniel'
 tags: ['']
 ---

@@ -1,6 +1,6 @@
 baseURL: "https://ai-co-blog.vercel.app/"
 languageCode: "zh-tw"
-title: "AI 共筆部落格"
+title: "AI 知識部落格"
 theme: "PaperMod"
 paginate: 10
 
@@ -54,8 +54,8 @@ params:
   ShowAllPagesInArchive: true
 
   homeInfoParams:
-    Title: "歡迎來到 AI 共筆部落格 👋"
-    Content: "每週分享 AI 相關知識和好用工具，歡迎加入我們，一起探索 AI 的無限可能！"
+    Title: "歡迎來到 AI 知識部落格 👋"
+    Content: "每週分享 AI 相關知識，歡迎加入我們，一起學習 AI"
 
   socialIcons:
     - name: "discord"
