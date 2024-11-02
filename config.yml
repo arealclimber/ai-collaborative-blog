@@ -2,7 +2,8 @@ baseURL: "https://ai-co-blog.vercel.app/"
 languageCode: "zh-tw"
 title: "AI 知識部落格"
 theme: "PaperMod"
-paginate: 10
+pagination:
+  pagerSize: 10
 
 # taxonomies:
 #   category: categories
